@@ -31,7 +31,7 @@ ruby 4.0.5 (2026-05-20 revision 64336ffd0e) +PRISM [arm64-darwin25]
 получаем:
 
 ```
-columns: { id: string; list: CardData[] }[]
+columns: CardData[][]
 ```
 
 и дальше в `<ScrollView />` рендерим через `flexDirection: 'row'`
